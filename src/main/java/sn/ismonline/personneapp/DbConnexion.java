@@ -29,7 +29,7 @@ public class DbConnexion {
             Class.forName("com.mysql.cj.jdbc.Driver");
             //Ouvrir la base de données
             cnx = DriverManager.getConnection(url, user, password);
-            System.out.println("Connection OK");
+            //System.out.println("Connection OK");
         }catch (Exception e){
             e.printStackTrace();
         }
